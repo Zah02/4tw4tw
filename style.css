@@ -1,0 +1,240 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 15px 0;
+    border-bottom: 2px solid lime;
+    box-shadow: 0 2px 15px lime;
+    z-index: 1000;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    margin: 0;
+    padding: 0;
+}
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-list a:hover {
+    color: #ff1493;
+    text-shadow: 0 0 10px #ff1493;
+}
+
+.nav-list li {
+    list-style: none;
+    color: white;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+
+.card {
+    width: 300px;
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding-bottom: 20px;
+
+    border: 2px solid #333;
+    box-shadow: 0 0 10px #222;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border: 2px solid cyan;
+    box-shadow: 0 0 15px cyan;
+}
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin-top: 20px;
+}
+
+.card p {
+    padding: 0 20px;
+}
+.tracking-section {
+    width: 800px;
+    margin: 100px auto;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #111;
+    color: white;
+
+    padding: 30px;
+
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.tracking-section img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.tracking-info {
+    padding-left: 40px;
+}
+
+.tracking-info h2 {
+    font-size: 28px;
+}
+
+.tracking-info p {
+    line-height: 1.6;
+}
+
+.tracking-section:hover {
+    border: 1px solid #ff1493;
+    box-shadow: 0 0 20px #ff1493;
+}
+.tracking-section {
+    width: 800px;
+    margin: 100px auto;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #111;
+    color: white;
+
+    padding: 30px;
+
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.logging-section {
+    width: 800px;
+    margin: 100px auto;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #111;
+    color: white;
+
+    padding: 30px;
+
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.logging-section img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.logging-info {
+    padding-left: 40px;
+}
+
+.logging-info h2 {
+    font-size: 28px;
+}
+
+.logging-info p {
+    line-height: 1.6;
+}
+
+.logging-section:hover {
+    border: 1px solid orangered;
+    box-shadow: 0 0 20px orangered;
+}
+.logging-section {
+    width: 800px;
+    margin: 100px auto;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #111;
+    color: white;
+
+    padding: 30px;
+
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+
+
+
+.quick-section {
+    width: 800px;
+    margin: 100px auto;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #111;
+    color: white;
+
+    padding: 30px;
+
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.quick-section img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.quick-info {
+    padding-left: 40px;
+}
+
+.quick-info h2 {
+    font-size: 28px;
+}
+
+.quick-info p {
+    line-height: 1.6;
+}
+
+.quick-section:hover {
+    border: 1px solid blue;
+    box-shadow: 0 0 20px blue;
+}
+.quick-section {
+    width: 800px;
+    margin: 100px auto;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #111;
+    color: white;
+
+    padding: 30px;
+
+    border: 1px solid #333;
+    transition: 0.3s;
+}
